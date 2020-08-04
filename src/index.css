@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokemonCard img{
+  max-width: 150px;
+  max-height: 150px;
+}
+.pokemonCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalPokemon{
+  width: 400px;
+  height: auto;
+  display: 'flex';
+  background: white;
+}
+#simple-modal-title{
+  padding-left: 5px;
+}
+
+.pokemonSizeFather{
+  display: flex;
+  justify-content: center;
+}
+
+.pokemonSizeSon{
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  text-align: center;
+}
+
+.typesPokemons{
+  display: flex;
+}
+
+.tagsPokemon{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(157, 171, 255);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.inputSearchPokemon{
+  margin: 10px;
+}
